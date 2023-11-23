@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Наталья Шакула](https://up.htmlacademy.ru/htmlcss-individual/1/user/2303421).
-* Наставник: `Неизвестно`.
+- Студент: [Наталья Шакула](https://up.htmlacademy.ru/htmlcss-individual/1/user/2303421).
+- Наставник: [Ирина Антипина](https://htmlacademy.ru/profile/id2108789).
 
 ---
 
