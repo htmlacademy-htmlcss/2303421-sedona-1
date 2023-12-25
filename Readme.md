@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 - Студент: [Наталья Шакула](https://up.htmlacademy.ru/htmlcss-individual/1/user/2303421).
-- Наставник: [Ирина Антипина](https://htmlacademy.ru/profile/id2108789).
+- Наставник: [Ольга Тюлихова](https://htmlacademy.ru/profile/id523263).
 
 ---
 
