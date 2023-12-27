@@ -6,10 +6,10 @@
   </head>
   <body>
     <div class="wrapper">
-      <!--HEADER START-->
-      <header class="header header-catalog">
+      <!--header start-->
+      <header class="header">
         <a class="header-logo-link" href="index.html">
-          <img class="header-logo-image" src="#" alt="Логотип Sedona.">
+          <img class="header-logo-image" src="images/svg/header-logo.svg" width="140" height="70" alt="Логотип Sedona.">
         </a>
         <nav class="navigation">
           <ul class="navigation-list">
@@ -36,13 +36,13 @@
               </a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link navigation-link-button" href="catalog.html">Хочу сюда!</a>
+              <a class="navigation-link navigation-link-button" href="#">Хочу сюда!</a>
             </li>
           </ul>
         </nav>
       </header>
-      <!--HEADER END-->
-      <!--MAIN START-->
+      <!--header end-->
+      <!--main start-->
       <main class="main-inner">
         <div class="container">
           <header class="inner-header">
@@ -137,12 +137,12 @@
           </select>
           <ul class="select-list">
             <li class="select-list-item">
-              <a class="button-small" href="#">
-                <span class="visually-hidden">Показать маленькие картинки</span>
+              <a class="button-tile" href="#">
+                <span class="visually-hidden">Показать плиткой</span>
               </a>
             </li>
             <li class="select-list-item">
-              <a class="button-big" href="#" >
+              <a class="button-slideshow" href="#">
                 <span class="visually-hidden">Показать большие картинки</span>
               </a>
             </li>
@@ -153,11 +153,11 @@
             </li>
           </ul>
         </section>
-        <article class="card">
+        <section class="cards">
           <ul class="card-list">
             <li class="card-item">
               <a class="card-link" href="#">
-                <img class="card-img" src="#" alt="Amara Resort & Spa.">
+                <img class="card-img" src="images/card-hotel/card-hotel-аmara.jpg" width="300" height="212" alt="Вид зведного неба из пещеры.">
               </a>
               <h3 class="card-title">Amara Resort & Spa</h3>
               <p class="card-type">Гостиница</p>
@@ -165,7 +165,7 @@
               <a class="card-link card-link-info" href="#">Подробнее</a>
               <button class="card-button" type="button">В избранное</button>
               <div class="card-rating">
-                <h3 class="visually-hidden">Звезды</h3>
+                <span class="visually-hidden">Четыре звезды</span>
               </div>
               <p class="card-button">Рейтинг:
                 <span class="card-button-rating">8,5</span>
@@ -173,15 +173,15 @@
             </li>
             <li class="card-item">
               <a class="card-link" href="#">
-                <img class="card-img" src="#" alt="Villas at Poco Diablo.">
+                <img class="card-img" src="images/card-hotel/card-hotel-villas.jpg" width="300" height="212" alt="Вид на огромную радугу над горами.">
               </a>
               <h3 class="card-title">Villas at Poco Diablo</h3>
               <p class="card-type">Гостиница</p>
               <p class="type-price">От 5000 ₽</p>
               <a class="card-link card-link-info" href="#">Подробнее</a>
-              <button class="card-button" type="button">В избранное</button>
+              <button class="card-button card-button-current" type="button">В избранном</button>
               <div class="card-rating">
-                <h3 class="visually-hidden">Звезды</h3>
+                <span class="visually-hidden">Четыре звезды</span>
               </div>
               <p class="card-button">Рейтинг:
                 <span class="card-button-rating">9,2</span>
@@ -189,7 +189,7 @@
             </li>
             <li class="card-item">
               <a class="card-link" href="#">
-                <img class="card-img" src="#" alt="Desert Quail Inn.">
+                <img class="card-img" src="images/card-hotel/card-hotel-desert.jpg" width="300" height="212" alt="Вид на национальный парк и скалы.">
               </a>
               <h3 class="card-title">Desert Quail Inn</h3>
               <p class="card-type">Гостиница</p>
@@ -197,7 +197,7 @@
               <a class="card-link card-link-info" href="#">Подробнее</a>
               <button class="card-button" type="button">В избранное</button>
               <div class="card-rating">
-                <h3 class="visually-hidden">Звезды</h3>
+                <span class="visually-hidden">Три звезды</span>
               </div>
               <p class="card-button">Рейтинг:
                 <span class="card-button-rating">6,9</span>
@@ -205,7 +205,7 @@
             </li>
             <li class="card-item">
               <a class="card-link" href="#">
-                <img class="card-img" src="#" alt="GreenTree Inn.">
+                <img class="card-img" src="images/card-hotel/card-hotel-green.jpg" width="300" height="212" alt="Вид на звездное небо и скалы.">
               </a>
               <h3 class="card-title">GreenTree Inn</h3>
               <p class="card-type">Гостиница</p>
@@ -213,14 +213,14 @@
               <a class="card-link card-link-info" href="#">Подробнее</a>
               <button class="card-button" type="button">В избранное</button>
               <div class="card-rating">
-                <h3 class="visually-hidden">Звезды</h3>
+                <span class="visually-hidden">Две звезды</span>
               </div>
               <p class="card-button">Рейтинг:
                 <span class="card-button-rating">5</span>
               </p>
             </li>
           </ul>
-        </article>
+        </section>
         <section class="pagination">
           <h2 class="visually-hidden">Переключение страниц</h2>
           <ol class="pagination-list">
@@ -254,8 +254,8 @@
           </form>
         </section>
       </main>
-      <!--MAIN END-->
-      <!--FOOTER START-->
+      <!--main end-->
+      <!--footer start-->
       <footer class="page-footer">
         <ul class="media">
           <li class="media-item">
@@ -281,7 +281,7 @@
           <span class="visually-hidden">HTML Academy</span>
         </a>
       </footer>
-      <!--FOOTER END-->
+      <!--footer end-->
     </div>
   </body>
 </html>
