@@ -1,0 +1,222 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/ptsans-400.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/ptsans-700.woff2) format("woff2");
+  font-display: swap;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+/*header styles*/
+.navigation-list {
+  list-style: none;
+}
+
+.navigation-link {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.navigation-link-search {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/svg/search.svg);
+  background-repeat: no-repeat;
+}
+
+.navigation-link-heart {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/svg/heart.svg);
+  background-repeat: no-repeat;
+}
+
+.like-count {
+  display: block;
+  width: 20px;
+  height: 20px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #7db54f;
+  border-radius: 50%;
+  position: relative;
+}
+
+.like-count::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.link-button{
+  display: block;
+  width: 160px;
+  height: 36px;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #756157;
+  border-radius: 4px;
+}
+
+/*main styles*/
+.main-welcome {
+  height: 485px;
+  background-color: rgb(200 205 210);
+  background-image: url(../images/svg/divider.svg), url(../images/main-welcome.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain, cover;
+  text-align: center;
+
+}
+
+.advantages-title {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+}
+
+.advantages-text {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.advantages-list{
+  list-style: none;
+}
+
+.advantages-list-item{
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-list-item-light {
+  background-color: #82b3d3;
+}
+
+.advantages-list-item-dark {
+  background-color: rgba(131, 179, 211, 0.20);
+}
+
+.advantages-list-item-home {
+  background-image: url(../images/svg/housing.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.advantages-list-item-food {
+  background-image: url(../images/svg/food.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: inherit;
+}
+
+.advantages-list-item-souvenirs {
+  background-image: url(../images/svg/souvenirs.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.advantages-list-title {
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.advantages-list-title-light {
+  color: #ffffff;
+}
+
+.advantages-list-text-light {
+  color: #ffffff;
+}
+
+.link-button-interest {
+  font-size: 20px;
+  line-height: 36px;
+  width: 376px;
+  height: 52px;
+  text-decoration: none;
+}
+
+.subscription{
+  height: 415px;
+  background-color: rgb(200 205 210);
+  background-image: url(../images/subscription-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.subscription-title {
+  font-size: 30px;
+  line-height: 36px;
+  color: #ffffff;;
+  text-transform: uppercase;
+}
+
+.subscription-text {
+  font-size: 22px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.field {
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.6;
+  background-color: #f2f2f2;
+}
+
+.newsletter-button {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #82b3d3;
+}
