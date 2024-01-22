@@ -64,27 +64,19 @@ body {
 }
 
 .like-count {
-  display: block;
+  display:flex;
+  align-items: center;
+  justify-content: center;
   width: 20px;
   height: 20px;
   font-size: 10px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 10px;
   color: #ffffff;
   text-align: center;
   background-color: #7db54f;
   border-radius: 50%;
   position: relative;
-}
-
-.like-count::after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 .link-button{
@@ -103,13 +95,12 @@ body {
 /*main styles*/
 .main-welcome {
   height: 485px;
-  background-color: rgb(200 205 210);
+  background-color:#a89696;
   background-image: url(../images/svg/divider.svg), url(../images/main-welcome.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: contain, cover;
+  background-size: 100% auto, cover;
   text-align: center;
-
 }
 
 .advantages-title {
@@ -186,7 +177,7 @@ body {
 
 .subscription{
   height: 415px;
-  background-color: rgb(200 205 210);
+  background-color:#8e746a;
   background-image: url(../images/subscription-background.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -195,7 +186,7 @@ body {
 .subscription-title {
   font-size: 30px;
   line-height: 36px;
-  color: #ffffff;;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -210,6 +201,7 @@ body {
   color: #000000;
   opacity: 0.6;
   background-color: #f2f2f2;
+  font-family: inherit;
 }
 
 .newsletter-button {
@@ -219,4 +211,5 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #82b3d3;
+  font-family: inherit;
 }
