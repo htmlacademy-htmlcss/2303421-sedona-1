@@ -28,7 +28,6 @@
 }
 
 body {
-  min-height: 100%;
   margin: 0;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
@@ -42,7 +41,6 @@ body {
 }
 
 .wrapper {
-  min-height: 100%;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -54,7 +52,6 @@ body {
 .button {
   display: inline-block;
   padding: 5px 12px;
-  min-height: 37px;
   font-family: inherit;
   font-size: 16px;
   line-height: 20px;
@@ -218,11 +215,6 @@ display: flex;
   color: #ffffff;
 }
 
-.button-interest {
-  min-width: 376px;
-  min-height: 52px;
-}
-
 .subscription{
   height: 415px;
   background-color:#8e746a;
@@ -254,9 +246,7 @@ display: flex;
 
 .button-newsletter {
   margin: 0;
-  min-width: 200px;
-  max-width: 350px;
-  height: 60px;
+  max-width: 332px;
   border-radius: 0 10px 10px 0;
   white-space: nowrap;
   overflow: hidden;
