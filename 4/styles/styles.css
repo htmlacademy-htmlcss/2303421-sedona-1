@@ -28,13 +28,68 @@
 }
 
 body {
+  min-height: 100%;
+  margin: 0;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: #333333;
+  background-color: #f2f2f2;
+}
+
+.navigation {
+  display: flex;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 1200px;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+  display: inline-block;
+  padding: 5px 12px;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-interest,
+.button-newsletter {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.button-brown {
+background-color: #756157;
+}
+
+.button-blue {
+  background-color: #82b3d3;
+}
+
+.button-green {
+  background-color: #7db54f;
 }
 
 /*header styles*/
+.navigation {
+display: flex;
+}
+
 .navigation-list {
   list-style: none;
 }
@@ -79,17 +134,12 @@ body {
   position: relative;
 }
 
-.link-button{
-  display: block;
-  width: 160px;
-  height: 36px;
-  font-size: 16px;
-  line-height: 20px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-  background-color: #756157;
-  border-radius: 4px;
+.navigation-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0 auto 20px;
+  min-width: 160px;
 }
 
 /*main styles*/
@@ -167,14 +217,6 @@ body {
   color: #ffffff;
 }
 
-.link-button-interest {
-  font-size: 20px;
-  line-height: 36px;
-  width: 376px;
-  height: 52px;
-  text-decoration: none;
-}
-
 .subscription{
   height: 415px;
   background-color:#8e746a;
@@ -204,12 +246,22 @@ body {
   font-family: inherit;
 }
 
-.newsletter-button {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 36px;
-  text-transform: uppercase;
-  color: #ffffff;
-  background-color: #82b3d3;
-  font-family: inherit;
+.button-newsletter {
+  margin: 0;
+  max-width: 332px;
+  border-radius: 0 10px 10px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*catalog styles*/
+
+/*filter form*/
+.catalog{
+  height: 412px;
+  background-color:#8e746a;
+  background-image: url(../images/catalog-filter-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
